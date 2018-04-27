@@ -1,0 +1,213 @@
+
+
+@media screen and (max-width: 470px){
+
+  html{
+    font-size: 18px;
+    font-family: Helvetica;
+  }
+  /* Header */
+  header{
+    background-color: black;
+  }
+
+  header-content{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 9px;
+      background-color: black;
+      display: flex;
+      max-width: 960px;
+      margin: 0 auto;
+      justify-content: flex-start;
+      align-items: center;
+  }
+
+  header-content img{
+    display: inline-block;
+    height: 1.5rem;
+    background-color: black;
+    padding-right: 15px;
+  }
+
+  header-content div{
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+    text-transform: uppercase;
+  }
+
+  /* below header */
+  .post-header{
+    display: block;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .post-header-section{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .post-header-caption{
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 10rem;
+    font-family: Helvetica;
+    display: block;
+  }
+
+  .post-header-caption h3{
+    font-size: 0.77rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 0.25rem 0;
+  }
+
+  .post-header-caption h2{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 0.25rem 0;
+  }
+
+  /* Navigation */
+  .navbar{
+    background-color: Firebrick;
+  }
+
+  .navlist{
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 960px;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+  }
+
+  .nav{
+    display: none;
+}
+
+  .responsive-nav{
+    display: flex;
+    padding: 0.75rem 0;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 960px;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+  }
+
+
+  /* Main */
+    /* Products */
+    main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+  .products{
+    margin: 3em auto 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .product-image{
+    height: 100%;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+  }
+
+  .product-image img{
+    max-width: 8em;
+  }
+
+  .product-caption{
+    padding: 0.5em 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Helvetica;
+  }
+
+
+  .watch,.glasses{
+  display: none;
+}
+
+    /* Contact */
+  .contact{
+    margin: 3em auto 0 auto;
+    max-width: 960px;
+    display: block;
+  }
+
+  .location,  .hours{
+    display: block;
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .contact-caption-1{
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1rem;
+    display: block;
+    font-size: 1rem;
+  }
+
+  .contact-caption-2{
+    line-height: 1.4rem;
+  }
+
+  /* Footer */
+  footer{
+    display: block;
+    background-color: black;
+    margin-top: 4rem;
+  }
+
+  .footer-container{
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    width: 100%;
+    display: block;
+    background-color: black;
+  }
+
+  .footer-caption{
+    line-height: 1.4rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+
+
+}
